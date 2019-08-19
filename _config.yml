@@ -1,0 +1,6 @@
+title: Annie's Cafe
+description: About this site...
+collections:
+  c:
+    output: true
+

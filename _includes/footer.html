@@ -1,0 +1,24 @@
+<footer class="footer">
+   <div class="container">
+      <div class="columns">
+         <div class="column is-three-quarters">
+            {% include about.html %}
+         </div>
+         <div class="column is-one-quarter">
+            {% include recent-posts.html %}
+         </div>
+      </div>
+   </div>
+   <div class="container">
+      <div class="footer-below">
+         <div class="level is-mobile">
+            <div class="level-left">
+               &copy; {{ 'now' | date: "%Y" }} {{site.title}}
+            </div>
+            <div class="level-right has-text-right">
+               <a title="To the Top" class="tothetop">Hoch &uarr;</a>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>

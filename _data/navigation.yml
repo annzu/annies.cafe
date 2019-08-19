@@ -1,0 +1,14 @@
+- name: Rezepte
+  link: /c/rezepte.html
+  pages:
+    - name: Süßes
+      link: /c/suesses.html
+    - name: Herzhaftes
+      link: /c/herzhaftes.html
+- name: Lifestyle
+  link: /c/lifestyle.html
+  pages:
+    - name: Schwangerschaft
+      link: /c/schwangerschaft.html
+- name: DIY
+  link: /c/diy.html

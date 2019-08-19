@@ -1,0 +1,34 @@
+<nav class="navbar is-primary">
+   <div class="container">
+      <div class="navbar-brand">
+       <a class="navbar-item" href="/">
+         <img src="/assets/images/logo.svg" alt="{{ site.title }}">
+       </a>
+     </div>
+      <div class="navbar-menu">
+         <div class="navbar-start">
+            {% for item in site.data.navigation %}
+                {% if item.pages %}
+                  <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link {% if page.url == item.link %}is-active{% endif %}" href="{{ item.link }}">
+                      {{ item.name }}
+                    </a>
+                    <div class="navbar-dropdown">
+                      {% for subitem in item.pages %}
+                      <a class="navbar-item {% if page.url == subitem.link %}is-active{% endif %}" href="{{ subitem.link }}">
+                        {{ subitem.name }}
+                      </a>
+                      {% endfor %}
+                    </div>
+                  </div>
+                {% else %}
+                  <a class="navbar-item {% if page.url == item.link %}is-active{% endif %} {% if item.pages %}has-dropdown{% endif %}" href="{{ item.link }}">
+                    {{ item.name }}
+                  </a>
+                {% endif %}
+            {% endfor %}
+
+         </div>
+      </div>
+   </div>
+</nav>
