@@ -1,0 +1,12 @@
+<div class="content">
+   <h2 class="title"><a href="{{ post.url | prepend: site.url}}">{{ post.title }}</a></h2>
+   <p class="subtitle">
+      {{ post.date | date_to_string }}
+      {% for category in post.categories %}
+         <span class="tag">{{category}}</span>
+      {% endfor %}
+   </p>
+   <p>
+      {{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url | prepend: site.url }}">Weiterlesen&nbsp;&raquo;</a>
+   </p>
+</div>

@@ -1,23 +1,5 @@
-$body-background-color: #fff;
-$dark-background-color: #E6F7F3;
-$dark-light-background-color: $dark-background-color;
-$medium-background-color: #727272;
-$light-background-color: #eee;
-$lighter-background-color: #f1f1f1;
-
-$fadeout-border-color: rgba(0,0,0,0.1);
-$light-border-color: #ddd;
-
-$highlight-color: #1abc9c;
-$highlight-color-darken: #089D80;
-
-$text-color: #444;
-$light-text-color: #333333;
-$lighter-text-color: #fff;
-$fadeout-text-color: rgba(0,0,0,0.4);
-$darker-text-color: $light-text-color;
-$dark-text-color: #666;
-$medium-text-color: #999;
+---
+---
 $family-sans-serif: 'Lato', sans-serif;
 $family-titles: 'Raleway', sans-serif;
 
@@ -26,8 +8,8 @@ $widescreen-enabled: false;
 $turquoise:  hsl(171, 70%, 45%);
 $turquoise: hsla(168, 90%, 32%, 1);
 
-@import '../node_modules/bulma/bulma';
-
+@import "bulma";
+// @import "font-awesome";
 
 .title, .subtitle {
    font-family: $family-titles;

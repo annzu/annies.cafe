@@ -1,5 +1,9 @@
 title: Annie's Cafe
-description: About this site...
+theme: jekyll-bulma
+description: Über diese Seite... (max. 160 Zeichen)
+url: 'https://annies.cafe'
+sass:
+  style: compressed
 collections:
   c:
     output: true
