@@ -10,12 +10,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="138.50195"
-   height="123.3423"
-   viewBox="0 0 36.645308 32.634316"
+   height="58.167656"
+   viewBox="0 0 36.645308 15.390192"
    version="1.1"
    id="svg1057"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="logo.svg">
+   sodipodi:docname="logo_variant.svg">
   <defs
      id="defs1051" />
   <sodipodi:namedview
@@ -27,7 +27,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
      inkscape:cx="23.028784"
-     inkscape:cy="51.626493"
+     inkscape:cy="20.336997"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -45,8 +45,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid1635"
-       originx="-7.2114551"
-       originy="-4.9960596" />
+       originx="-7.211455"
+       originy="-13.274739" />
   </sodipodi:namedview>
   <metadata
      id="metadata1054">
@@ -56,7 +56,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -64,7 +64,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-7.2114552,-259.36964)">
+     transform="translate(-7.2114552,-268.33508)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.37512016px;line-height:1.25;font-family:'Shadows Into Light Two';-inkscape-font-specification:'Shadows Into Light Two';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.40937802"
@@ -77,30 +77,5 @@
          y="282.55807"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'coffee+tea demo';-inkscape-font-specification:'coffee+tea demo';fill:#ffffff;stroke-width:0.40937802"
          id="tspan831-4-0-5">Annie's</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="21.364542"
-       y="288.86923"
-       id="text871"><tspan
-         sodipodi:role="line"
-         id="tspan869"
-         x="21.364542"
-         y="288.86923"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">Cafe</tspan></text>
-    <path
-       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4.43306684;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 20.220703,94.314453 C 30.913779,111.04235 49.396428,121.16536 69.25,121.16797 93.991475,121.1384 116.00989,105.4695 124.14453,82.103516"
-       id="path825"
-       transform="matrix(0.26458333,0,0,0.26458333,7.2114552,259.36964)"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
-    <path
-       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4.43306684;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 123.42773,41.726562 C 114.68909,19.436603 93.191723,4.7722981 69.25,4.7695312 45.75852,4.7759723 24.57414,18.904542 15.541016,40.589844"
-       id="path818"
-       transform="matrix(0.26458333,0,0,0.26458333,7.2114552,259.36964)"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
   </g>
 </svg>

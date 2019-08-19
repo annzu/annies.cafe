@@ -1,9 +1,11 @@
 <nav class="navbar is-primary">
    <div class="container">
       <div class="navbar-brand">
-       <a class="navbar-item" href="/">
-         <img src="{{ '/assets/images/logo.svg' | prepend: site.url }}" alt="{{ site.title }}">
-       </a>
+       {% if include.brand %}
+         <a class="navbar-item" href="{{ site.url }}" title="{{ site.title }}">
+           <img src="{{ '/assets/images/logo_flat.svg' | prepend: site.url }}" alt="{{ site.title }}">
+         </a>
+       {% endif %}
 
        <a role="button" class="navbar-burger" data-target="navbar-menu" aria-label="menu" aria-expanded="false">
         <span aria-hidden="true"></span>
@@ -28,12 +30,11 @@
                     </div>
                   </div>
                 {% else %}
-                  <a class="navbar-item {% if page.url == item.link %}is-active{% endif %} {% if item.pages %}has-dropdown{% endif %}" href="{{ item.link | prepend: site.url }}">
+                  <a class="navbar-item {% if page.url == item.link %}is-active{% endif %}" href="{{ item.link | prepend: site.url }}">
                     {{ item.name }}
                   </a>
                 {% endif %}
             {% endfor %}
-
          </div>
       </div>
    </div>
