@@ -5,7 +5,7 @@ layout: default
 <div class="columns">
    <section class="column is-three-quarters">
       {% for post in site.posts limit:5 %}
-         {% include post-item.html %}
+         {% include post_item.html %}
       {% endfor %}
    </section>
    <aside class="column is-one-quarters is-hidden-mobile">

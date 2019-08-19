@@ -1,9 +1,9 @@
 <div class="content">
    <h2 class="title"><a href="{{ post.url | prepend: site.url}}">{{ post.title }}</a></h2>
    <p class="subtitle">
-      {{ post.date | date_to_string }}
+      <time datetime="{{ post.date | date_to_xmlschema }}" title="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m.%Y" }}</time>
       {% for category in post.categories %}
-         <span class="tag">{{category}}</span>
+         {% include category_tag.html %}
       {% endfor %}
    </p>
    <p>

@@ -7,12 +7,13 @@ layout: base
    <div class="container content is-medium">
       <h1 class="title">{{ page.title }}</h1>
       <p class="subtitle">
-         {{ page.date | date_to_string }} - {{ author.firstname }}
+         <time datetime="{{ page.date | date_to_xmlschema }}" title="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d.%m.%Y" }}</time> - {% include read_time.html %} - Von {{ author.name }}
       </p>
       {{content}}
-      <p>
+      <p class="has-text-grey-light">
+         Kategorien:
          {% for category in page.categories %}
-            <span class="tag">{{ category }}</span>
+            {% include category_tag.html %}
          {% endfor %}
       </p>
    </div>

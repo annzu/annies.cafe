@@ -1,0 +1,8 @@
+<span title="Geschätzte Lesezeit">
+  {% assign words = content | number_of_words %}
+  {% if words < 360 %}
+    ca. 1 Minute
+  {% else %}
+    ca. {{ words | divided_by: 180 }} Minuten
+  {% endif %}
+</span>
