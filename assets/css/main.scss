@@ -5,7 +5,6 @@ $family-titles: 'Raleway', sans-serif;
 
 $fullhd-enabled: false;
 $widescreen-enabled: false;
-$turquoise:  hsl(171, 70%, 45%);
 $turquoise: hsla(168, 90%, 32%, 1);
 
 @import "bulma";
@@ -13,6 +12,12 @@ $turquoise: hsla(168, 90%, 32%, 1);
 
 .title, .subtitle {
    font-family: $family-titles;
+}
+
+.navbar-burger {
+   &, &:hover {
+      color: white;
+   }
 }
 
 .hero {
@@ -25,6 +30,7 @@ $turquoise: hsla(168, 90%, 32%, 1);
 .hero-body {
    .logo {
       display: inline-block;
+
       img {
          height: 250px;
       }
@@ -50,5 +56,4 @@ ul.recent-posts {
    border-top: 2px solid $grey-lighter;
    margin-top: 2em;
    padding-top: 2em;
-   text-transform: uppercase;
 }

@@ -4,8 +4,14 @@
        <a class="navbar-item" href="/">
          <img src="{{ '/assets/images/logo.svg' | prepend: site.url }}" alt="{{ site.title }}">
        </a>
+
+       <a role="button" class="navbar-burger" data-target="navbar-menu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
      </div>
-      <div class="navbar-menu">
+      <div class="navbar-menu" id="navbar-menu">
          <div class="navbar-start">
             {% for item in site.data.navigation %}
                 {% if item.pages %}
